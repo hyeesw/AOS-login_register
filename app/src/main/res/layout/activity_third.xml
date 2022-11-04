@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:rowCount="10"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:layout_height="100dp"
+        android:layout_width="350dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/g70"/>
+
+    <TextView
+        android:layout_height="100dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:gravity="bottom"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="10dp"
+        android:text="G70"
+        android:textSize="25dp" />
+<!--2-->
+    <ImageView
+        android:layout_height="100dp"
+        android:layout_width="350dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/g80"/>
+
+    <TextView
+        android:layout_height="100dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:gravity="bottom"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="10dp"
+        android:text="G80"
+        android:textSize="25dp" />
+<!--3-->
+    <ImageView
+        android:layout_height="100dp"
+        android:layout_width="350dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/gv60"/>
+
+    <TextView
+        android:layout_height="100dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:gravity="bottom"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="10dp"
+        android:text="GV60"
+        android:textSize="25dp" />
+<!--4-->
+    <ImageView
+        android:layout_height="100dp"
+        android:layout_width="350dp"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/gv70"/>
+
+    <TextView
+        android:layout_height="100dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:gravity="bottom"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="10dp"
+        android:text="GV70"
+        android:textSize="25dp" />
+<!--5-->
+    <ImageView
+        android:layout_height="100dp"
+        android:layout_width="350dp"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:src="@drawable/gv80"/>
+
+    <TextView
+        android:layout_height="100dp"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:gravity="bottom"
+        android:layout_marginLeft="12dp"
+        android:text="GV80"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btn_userInfo"
+        android:layout_row="5"
+        android:layout_width="412dp"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="1"
+        android:text="회원 정보 확인하기" />
+
+</GridLayout>
