@@ -13,8 +13,7 @@
         android:id="@+id/et_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="60dp"
         android:hint="아이디"
         android:inputType="textPersonName" />
 
@@ -29,8 +28,6 @@
         android:id="@+id/et_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/et_id"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="6dp"
         android:hint="비밀번호"
         android:inputType="textPassword"
@@ -47,8 +44,6 @@
         android:id="@+id/et_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/et_password"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="6dp"
         android:hint="이름"
         android:inputType="textPersonName" />
@@ -65,8 +60,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
-        android:layout_below="@id/et_name"
-        android:layout_centerHorizontal="true"
         android:hint="국적"
         android:inputType="textPersonName" />
     <TextView
@@ -103,7 +96,6 @@
         android:id="@+id/agree_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/et_address"
         android:layout_marginTop="17dp"
         android:text="이용자가 본 약관 내용에 동의하는 것을 조건으로 이용자에게 서비스를 제공합니다." />
 
@@ -119,7 +111,6 @@
         android:id="@+id/error_agree"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/radio_agree"
         android:text="" />
 
     <Button
@@ -127,8 +118,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:layout_below="@id/error_agree"
-        android:layout_centerHorizontal="true"
         android:text="회원가입" />
 
 </LinearLayout>

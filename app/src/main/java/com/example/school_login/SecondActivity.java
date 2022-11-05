@@ -13,8 +13,6 @@ import android.widget.TextView;
 
 import java.util.HashSet;
 import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class SecondActivity extends AppCompatActivity {
     private EditText editID, editPW, editName, editAddress;
@@ -62,6 +60,7 @@ public class SecondActivity extends AppCompatActivity {
                 String userAddress = editAddress.getText().toString();
                 String userSex = "";
                 if(radio_woman.isChecked()) userSex = "woman";
+                else userSex = "man";
 
 
                 //아이디에 아무것도 입력 안 했으면 -> 오류 메세지
@@ -112,7 +111,5 @@ public class SecondActivity extends AppCompatActivity {
                 }
             }
         });
-
-
     }
 }

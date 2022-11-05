@@ -66,10 +66,6 @@ public class ThirdActivity extends AppCompatActivity {
                     });
                     ad.show();
                 }
-
-
-
-
             }
         });
     }

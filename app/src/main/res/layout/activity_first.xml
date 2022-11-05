@@ -11,11 +11,10 @@
         android:id="@+id/et_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
         android:hint="아이디"
         android:inputType="textPersonName"
-        android:minHeight="48dp" />
+        />
 
     <EditText
         android:id="@+id/et_password"
@@ -26,7 +25,7 @@
         android:layout_centerHorizontal="true"
         android:hint="비밀번호"
         android:inputType="textPassword"
-        android:minHeight="48dp" />
+        />
 
     <Button
         android:id="@+id/btn_login"
