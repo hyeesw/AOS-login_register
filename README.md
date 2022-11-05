@@ -3,6 +3,11 @@
 - 데이터 저장은 프레퍼런스 이용
 - 2022년 11월에 만듦. (2학년 2학기)
 
+🚀 코드 위치  </br>
+xml 코드 (화면 UI) 는 **app > src > main > res > layout** 안에 </br>
+java 코드 (엑티비티) 는 **app > src > main > java/com/example/school_login** 안에 있습니다.
+
+
 </br></br>
 # 🔔 화면1 설명
 로그인 화면
