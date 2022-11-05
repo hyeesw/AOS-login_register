@@ -28,13 +28,13 @@ activity_first.xml 과 연동하고, xml 파일에서 만들었던 뷰들의 id�
 
 </br></br>
 ### ✅ 로그인 버튼 클릭 (입력된 ID, PW가 저장된 값과 동일한지 확인한 후, 화면3으로 이동.) </br>
-> ### ID 또는 PW가 입력되지 않았다면 </br>
+> #### ID 또는 PW가 입력되지 않았다면 </br>
 > - **만약 ID를 입력하지 않았다면**, activity_first.xml의 에러메세지 출력용으로 만들었던 textview에 "아이디를 입력하세요." text값 전달 후 return (종료)</br>
 > - **만약 PW를 입력하지 않았다면**, ID와 동일한 방법으로 "비밀번호를 입력하세요." text값 전달 후 return (종료) </br>
 <image src="https://user-images.githubusercontent.com/84231143/200105784-54fba9a9-3835-4646-ab4a-88d0b3d17995.JPG" width="15%"> <image src="https://user-images.githubusercontent.com/84231143/200105794-7ace29a9-dbe3-466a-b123-ead6e2919ce8.JPG" width="15%">
   
   </br> </br>
->  ### ID와 PW를 모두 입력했다면 </br>
+>  #### ID와 PW를 모두 입력했다면 </br>
 > "personInfo" 프레퍼런스에 접근해 프레퍼런스 객체를 불러온다. 해당 파일에 입력된 ID값과 동일한 key값이 있는지 확인한다. </br></br>
 > <image src="https://user-images.githubusercontent.com/84231143/200106872-3a60a794-21bc-4a53-ab64-4c43372403a5.JPG" width="50%"> </br>
 > > #### ⭕ 입력된 ID와 동일한 key값이 있는 경우 </br>
@@ -88,7 +88,7 @@ activity_first.xml 과 연동하고 xml 파일에서 만들었던 뷰들의 id�
 
 </br></br>
 ### ✅ 회원가입 버튼 클릭 (입력된 ID, PW, 이름, 국적값과, 성별 값을 가져온다.)
-> ### [ID], [PW], [이름], [국적]에 입력된 값이 없거나, [개인정보 사용 동의] 버튼을 누르지 않았다면 </br> 
+> #### [ID], [PW], [이름], [국적]에 입력된 값이 없거나, [개인정보 사용 동의] 버튼을 누르지 않았다면 </br> 
 > activity_second.xml의 에러메세지 출력용으로 만들었던 각 textview에 오류 메세지를 담은 text값 전달 후 return (종료) </br>
 > <image src="https://user-images.githubusercontent.com/84231143/200109814-793fe741-4e27-4bac-80cd-76e39058255d.JPG" width="18%"> <image src="https://user-images.githubusercontent.com/84231143/200109835-2bd29543-d8c7-462e-8c7b-be5c04d7b223.JPG" width="18%"> <image src="https://user-images.githubusercontent.com/84231143/200109826-2838790f-1199-4e84-a440-7be71420212e.JPG" width="18%"> <image src="https://user-images.githubusercontent.com/84231143/200109843-aed022c0-5117-43a4-b4c1-2f212a13f2fa.JPG" width="18%"> <image src="https://user-images.githubusercontent.com/84231143/200109844-4feee345-5a37-4d59-b6f5-c91309e5da13.JPG" width="18%">
 
@@ -133,13 +133,13 @@ activity_tihrd.xml 과 연동하고, xml 파일에서 만들었던 뷰들의 id�
 -  팝업창은 AlertDialog으로 구현했다.
 </br></br></br>
 
-> ### [메인으로 이동] 버튼으로 온 경우 ("btn_3_userInfo" 변수에 null이 저장됨) </br>
+> #### [메인으로 이동] 버튼으로 온 경우 ("btn_3_userInfo" 변수에 null이 저장됨) </br>
 > - "회원가입하시겠습니까?" 는 메세지와 positiveButton과 negativeButton을 담은 팝업창을 띄운다. </br>
 > - postiveButton에는 "네" 를, negativeButton에는 "닫기" text를 넣어, "네"를 누르면 화면2로 이동하고, 닫기를 누르면 팝업창이 사라지도록 구현했다. </br>
 > <image src="https://user-images.githubusercontent.com/84231143/200111985-29781ead-d7ab-4637-9705-4e0f4b7b8b7f.png" width="60%"> 
 
 </br></br>
-> ### [로그인] 버튼으로 온 경우 ("btn_3_userInfo" 변수에 user_id 키의 value값이 저장됨) </br>
+> #### [로그인] 버튼으로 온 경우 ("btn_3_userInfo" 변수에 user_id 키의 value값이 저장됨) </br>
 > - 화면1로부터 ID값을 받았다면, 이름, 주소, 성별에 대한 값도 같이 전달 됐을 것이다. 각 값을 변수에 담고, 팝업창에 setMessage()로 회원정보를 text로 보여준다. </br>
 > - 닫기버튼도 있는데 이는 비회원인 경우와 동일한 코드이다. </br>
 > <image src="https://user-images.githubusercontent.com/84231143/200112028-cd2b2d80-ef07-4a18-b08d-57cd80036e07.png" width="40%">
